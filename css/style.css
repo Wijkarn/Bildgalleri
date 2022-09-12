@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+input, textarea{
+    border: 1px solid black;
+}
+
+img.leia {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 90%;
+}
+
+h1, h2{
+    color: lime;
+    font-family: Helvetica;
+}
+
+p, blockquote, a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:hover{
+    background-color: black;
+}
+
+a {
+    background-color: aquamarine;
+}
+
+form{
+    margin-top: 100px;
+}
+
+img{
+    width: 100%;
+    /* max-width: 400px; */
+    /* max-height: 300px; */
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+div.hemsidalink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px green solid;
+}
+
+div.galleri{
+    display: flex;
+    border: 2px firebrick solid;
+    justify-content: center;
+    padding: 1rem;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+article{
+    border: 2px solid black;
+    list-style: none;
+    flex-basis: 16.6%;
+}
+
+p.galleri{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
