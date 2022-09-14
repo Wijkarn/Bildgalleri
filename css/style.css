@@ -27,13 +27,13 @@ p, blockquote, a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-a:hover{
+/* a:hover{
     background-color: black;
 }
 
 a {
     background-color: aquamarine;
-}
+} */
 
 form{
     margin-top: 100px;
@@ -50,15 +50,17 @@ img{
 }
 
 div.hemsidalink{
-    display: flex;
+    height: 60px;
+
+    /* display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border: 2px green solid;
+    border: 2px green solid; */
 }
 
 div.galleri{
     display: flex;
-    border: 2px firebrick solid;
+    /* border: 2px firebrick solid; */
     justify-content: center;
     padding: 1rem;
     flex-flow: row wrap;
