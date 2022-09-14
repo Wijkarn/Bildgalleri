@@ -58,29 +58,14 @@ div.hemsidalink{
     border: 2px green solid; */
 }
 
-div.galleri{
-    display: flex;
-    /* border: 2px firebrick solid; */
-    justify-content: center;
-    padding: 1rem;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-}
-
-article{
-    border: 2px solid black;
-    list-style: none;
-    flex-basis: 16.6%;
-}
-
-p.galleri{
-    align-items: center;
-    align-content: center;
-    text-align: center;
-}
-
 h1{
     text-align: center;
     font-size: 50px;
+}
+.card-title, .card-text{
+    text-align: center;
+}
+.card{
+    margin: 5px;
+    /* margin-right: 5%; */
 }
